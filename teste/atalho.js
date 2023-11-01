@@ -18,6 +18,10 @@ function velha(){
 }
 
 
+function calculadora(){
+    window.location.href = 'calculadora.html'
+}
+
 const botao1 = document.getElementById('botao-velha1');
 const botao2 = document.getElementById('botao-velha2');
 const botao3 = document.getElementById('botao-velha3');
