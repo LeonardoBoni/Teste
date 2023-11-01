@@ -1,0 +1,189 @@
+body{
+    background-color: rgb(19, 104, 201);
+}
+
+.home-cabecalho{
+    padding: 10px;
+    background-color: white;
+    margin-top: auto;
+    border-radius: 5px;
+}
+
+.cabecalho-relogio{
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+
+.titulo-home{
+    margin-top: auto;
+    text-decoration: underline;
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+}
+
+
+.titulo-cabecalho-relogio{
+    text-decoration: underline;
+    padding: 5px;
+}
+
+
+.corpo{
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    display: list-item;
+}
+
+.corpo-home{
+    margin-top: 50px;
+}
+
+.corpo-velha{
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+    height: 500px;
+    width: 500px;
+    background-color: black;
+}
+
+#res{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+#botao-velha1, #botao-velha2, #botao-velha3, #botao-velha4, #botao-velha5, #botao-velha6, #botao-velha7, #botao-velha8, #botao-velha9{
+    cursor: pointer;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+}
+
+
+.botao-fusohorario{
+    margin-top: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    background-color: black;
+}
+
+
+.titulo-relogio{
+    text-align: center;
+    font-size: 40px;
+}
+
+
+
+
+.corpo-relogio{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 500px; 
+    border-radius: 5px ;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: black;
+    width: 750px;
+}
+
+
+#relogio{
+    border-radius: 500px;
+    margin-top: 200px;
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+#hora{
+    text-decoration: underline;
+    margin-top: 130px;
+    text-align: center;
+    color: blue;
+}
+
+#nome{
+    width: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+#idade{
+    margin: 0 auto;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+#botao{
+    margin: 0 auto;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 10px;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(19, 104, 201);
+}
+
+#home-botao{
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 10px;
+    height: 40px;
+    width: 100px;
+    background-color: black;
+}
+
+
+#botao-home-cadastro{
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 10px;
+    height: 55px;
+    width: 150px;
+    background-color: black;
+}
+
+#botao-home-relogio{
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 10px;
+    height: 55px;
+    width: 150px;
+    background-color: black;
+}
+
+#email{
+    margin: 0 auto;
+    border-radius: 10px;
+    margin: 10px;
+}
