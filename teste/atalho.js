@@ -303,3 +303,21 @@ function mostrarHora() {
 
 mostrarHora();
 setInterval(mostrarHora, 1000);
+
+
+
+//Calculadora
+
+let valores = [];
+let operacao = 0;
+
+function somar(){
+    for(let i = 0; i < valores.length; i++){
+        let valoresSoma = valoresSoma + valores[i];
+        let mostrarVisor = document.getElementById('visor-calculadora');
+         mostrarVisor.innerHTML = `${valoresSoma}`;
+        console.log("aprovado");
+    }
+}
+  
+  
